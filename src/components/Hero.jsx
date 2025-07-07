@@ -18,7 +18,7 @@ const HeroSection = () => {
           </p>
           <a
             href="#request-demo"
-            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors duration-300 text-lg font-regular shadow-lg shadow-blue-400/40"
+            className="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition-colors duration-300 text-md font-regular shadow-lg shadow-blue-400/40"
           >
             Request a demo
           </a>
@@ -33,7 +33,13 @@ const HeroSection = () => {
 />
         </div>
       </div>
+      {/* Mesh-style blobs */}
+{/* Mesh-style blobs (azul sutil) */}
+{/* Mesh-style blobs (esparcidos y suaves) */}
+<div className="absolute -top-40 -left-48 w-[600px] h-[600px] bg-blue-200 rounded-full mix-blend-multiply filter blur-[100px] opacity-20 z-0"></div>
+<div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-blue-300 rounded-full mix-blend-multiply filter blur-[100px] opacity-25 z-0"></div>
     </section>
+    
   );
 };
 
