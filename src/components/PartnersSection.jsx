@@ -8,7 +8,7 @@ const PartnersSection = () => {
       className="py-20 bg-white relative z-10"
     >
       <div className="container mx-auto px-4 md:px-8 text-center pt-16">
-        <h5 className="text-2xl md:text-3xl font-slab font-semibold text-gray-800 mb-8 pb-10">
+        <h5 className="text-2xl md:text-2xl font-slab font-regular text-gray-800 mb-8 pb-10">
           Trusted by Industry Leaders
         </h5>
         <div className="flex flex-wrap justify-center items-center gap-8">
