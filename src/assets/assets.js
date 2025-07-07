@@ -7,6 +7,7 @@ import GooglePlayIcon from './google-play-icon.png';
 import MicrosoftLogo from './microsoft-logo.png'; // Si es el logo de un partner o cliente
 import PayflexLogo from './payflex-logo.png'; // El logo principal de PayFlex
 import ReviewIcon from './review-icon.png'; // El icono para las reviews/testimonios
+import HamburgerMenu from './hamburger-menu.png';
 
 // --- Iconos/Imágenes de Beneficios ---
 import BenefitsIcon1 from './benefits-icon-1.png';
@@ -27,11 +28,12 @@ export const Images = {
   // Iconos Generales
   appStoreIcon: AppStoreIcon,
   appleLogo: AppleLogo,
-    googleLogo: GoogleLogo,
+  googleLogo: GoogleLogo,
   googlePlayIcon: GooglePlayIcon,
   microsoftLogo: MicrosoftLogo,
   payflexLogo: PayflexLogo,
   reviewIcon: ReviewIcon,
+  hamburgerMenu: HamburgerMenu,
 
   // Iconos/Imágenes de Beneficios
   benefitsIcon1: BenefitsIcon1,
