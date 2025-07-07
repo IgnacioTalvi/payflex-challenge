@@ -5,19 +5,21 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showNavbar, setShowNavbar] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
+  const [isAtTop, setIsAtTop] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
-  
-      if (currentScroll === 0) {
-        setShowNavbar(true); // Siempre mostrar si estás en el top
-      } else if (currentScroll > lastScrollY) {
-        setShowNavbar(false); // Scrolleando hacia abajo
+    
+      setIsAtTop(currentScroll === 0);
+    
+      if (currentScroll > lastScrollY) {
+        setShowNavbar(false);
+        setIsOpen(false);
       } else {
-        setShowNavbar(true); // Scrolleando hacia arriba
+        setShowNavbar(true);
       }
-  
+    
       setLastScrollY(currentScroll);
     };
   
@@ -27,12 +29,12 @@ const Navbar = () => {
 
   return (
     <div
-      className={`
-        fixed top-0 left-0 w-full z-50 bg-transparent
-        transition-all duration-300 ease-in-out
-        ${showNavbar ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}
-      `}
-    >
+  className={`
+    fixed top-0 left-0 w-full z-50
+    transition-all duration-100 ease-in-out
+    ${showNavbar ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'}
+    ${!isAtTop ? 'bg-white/100 backdrop-blur-md' : 'bg-transparent'}  `}
+>
       <div className="max-w-screen-xl mx-auto flex items-center justify-between py-4 px-4 sm:px-6 md:px-10 lg:px-16">
         {/* Logo */}
         <div className="flex-shrink-0">

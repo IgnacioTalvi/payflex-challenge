@@ -16,7 +16,7 @@ const BenefitsSection = () => {
             {/* Benefit 1 */}
             <div className="flex flex-col md:flex-row md:items-start gap-4 text-center md:text-left">
               <div className="mx-auto md:mx-0 p-4 bg-gray-100 rounded-xl flex items-center justify-center w-16 h-16 md:w-22 md:h-14">
-                <img src={Images.benefitsIcon1} alt="Flexible Wage Access" className="w-6 h-6 md:w-5 md:h-5" />
+                <img src={Images.benefitsIcon1} alt="Flexible Wage Access" className="w-12 h-12 md:w-12 md:h-12" />
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Flexible Earned Wage Access</h3>
