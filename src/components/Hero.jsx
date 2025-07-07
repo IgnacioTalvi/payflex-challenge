@@ -34,8 +34,9 @@ const HeroSection = () => {
       </div>
 
       {/* Mesh gradients */}
-      <div className="absolute -top-40 -left-48 w-[600px] h-[600px] bg-blue-200 rounded-full mix-blend-multiply filter blur-[100px] opacity-20 z-0"></div>
-      <div className="absolute top-1/4 right-0 w-[500px] h-[500px] bg-blue-300 rounded-full mix-blend-multiply filter blur-[100px] opacity-25 z-0"></div>
+      {/* Mesh gradients */}
+        <div className="absolute -top-40 -left-48 w-[300px] h-[300px] bg-blue-100 rounded-full mix-blend-multiply filter blur-[60px] opacity-10 z-0 md:w-[600px] md:h-[600px] md:blur-[100px] md:opacity-20"></div>
+        <div className="absolute top-1/4 right-0 w-[120px] h-[250px] bg-blue-500 rounded-full mix-blend-multiply filter blur-[60px] opacity-10 z-0 md:w-[500px] md:h-[500px] md:blur-[100px] md:opacity-25"></div>
     </section>
   );
 };
