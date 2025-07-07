@@ -8,14 +8,19 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > lastScrollY) {
-        setShowNavbar(false);
+      const currentScroll = window.scrollY;
+  
+      if (currentScroll === 0) {
+        setShowNavbar(true); // Siempre mostrar si estás en el top
+      } else if (currentScroll > lastScrollY) {
+        setShowNavbar(false); // Scrolleando hacia abajo
       } else {
-        setShowNavbar(true);
+        setShowNavbar(true); // Scrolleando hacia arriba
       }
-      setLastScrollY(window.scrollY);
+  
+      setLastScrollY(currentScroll);
     };
-
+  
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, [lastScrollY]);
