@@ -10,9 +10,9 @@ const HeroSection = () => {
       <div className="container mx-auto max-w-screen-lg flex flex-col-reverse md:flex-row items-center justify-between gap-x-8 px-4 md:px-8 relative z-10">
         {/* Texto principal */}
         <div className="w-full text-left mb-12 md:mb-0">
-          <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 leading-tight mb-4">
-            Boost Employee Retention and Attract Top Talent
-          </h1>
+        <h1 className="font-slab text-4xl md:text-5xl font-semibold text-gray-900 leading-tight mb-4">
+  Boost Employee Retention and Attract Top Talent
+</h1>
           <p className="max-w-xl text-lg text-gray-600 mb-8">
             Provide your employees immediate access to their earned wages and other valuable benefits, at no cost to your company.
           </p>
@@ -26,11 +26,11 @@ const HeroSection = () => {
 
         {/* Imagen del teléfono */}
         <div className="w-full md:w-1/2 flex justify-center items-center">
-          <img
-            src={Images.phoneHeroMockup}
-            alt="PayFlex App on Phone"
-            className="w-full max-w-xs h-auto drop-shadow-md"
-          />
+        <img
+  src={Images.phoneHeroMockup}
+  alt="PayFlex App on Phone"
+  className="max-w-xs w-full h-auto drop-shadow-md"
+/>
         </div>
       </div>
     </section>
