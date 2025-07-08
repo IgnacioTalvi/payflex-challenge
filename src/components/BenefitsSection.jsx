@@ -3,8 +3,8 @@ import { Images } from '../assets/assets';
 
 const BenefitsSection = () => {
   return (
-    <section className="py-20 bg-white" id="benefits">
-      <div className="max-w-screen-xl mx-auto px-8 md:px-10 lg:px-38 flex flex-col md:flex-row items-center justify-between gap-12">
+    <section id="benefits" className="scroll-mt-24 py-20 bg-white">
+    <div className="max-w-screen-xl mx-auto px-8 md:px-10 lg:px-38 flex flex-col md:flex-row items-center justify-between gap-12">
         
         {/* Texto */}
         <div className="w-full md:w-1/2">

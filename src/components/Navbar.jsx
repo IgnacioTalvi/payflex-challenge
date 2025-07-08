@@ -47,9 +47,9 @@ const Navbar = () => {
 
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center justify-end flex-grow space-x-6 md:space-x-8">
-          <a href="#Header" className="cursor-pointer">Benefits</a>
-          <a href="#Header" className="cursor-pointer">Testimonials</a>
-          <a href="#Header" className="cursor-pointer">FAQ</a>
+          <a href="#benefits" className="cursor-pointer">Benefits</a>
+          <a href="#testimonials" className="cursor-pointer">Testimonials</a>
+          <a href="#download" className="cursor-pointer">Download app</a>
           <button className="bg-blue-600 text-white px-6 md:px-8 py-2 md:py-3 rounded-full hover:bg-blue-700 transition-colors duration-300 cursor-pointer">
             <a 
               href="https://calendly.com/payflex/primer-contacto"
@@ -71,6 +71,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Fullscreen Menu */}
+        {/* Mobile Fullscreen Menu */}
         <div
           className={`
             fixed top-0 left-0 w-full h-screen bg-white 
@@ -80,26 +81,26 @@ const Navbar = () => {
           `}
         >
           <a
-            href="#Header"
+            href="#benefits"
             onClick={() => setIsOpen(false)}
             className="text-xl font-sans font-regular text-gray-800"
           >
             Benefits
           </a>
           <a
-            href="#Header"
+            href="#testimonials"
             onClick={() => setIsOpen(false)}
             className="text-xl font-sans font-regular text-gray-800"
           >
             Testimonials
           </a>
           <a
-            href="#Header"
-            onClick={() => setIsOpen(false)}
-            className="text-xl font-sans font-regular text-gray-800"
-          >
-            FAQ
-          </a>
+          href="#download"
+          onClick={() => setIsOpen(false)}
+          className="text-xl font-sans font-regular text-gray-800"
+        >
+          Download app
+        </a>
           <a
             href="https://calendly.com/payflex/primer-contacto"
             target="_blank"

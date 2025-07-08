@@ -3,8 +3,8 @@ import { Images } from '../assets/assets';
 
 const DownloadAppSection = () => {
   return (
-    <section className="py-10 px-8 bg-white">
-      <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-8">
+    <section id="download" className="scroll-mt-24 px-8 py-20 bg-white">
+    <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-8">
         
         {/* Imagen arriba */}
         <img

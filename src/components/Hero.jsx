@@ -17,7 +17,9 @@ const HeroSection = () => {
             Provide your employees immediate access to their earned wages and other valuable benefits, at no cost to your company.
           </p>
           <a
-            href="#request-demo"
+            href="https://api.whatsapp.com/send?phone=59895381577"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors duration-300 text-md font-regular shadow-lg shadow-blue-400/40"
           >
             Request a demo

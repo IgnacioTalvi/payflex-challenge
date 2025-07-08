@@ -4,7 +4,7 @@ import { Images } from '../assets/assets';
 
 const TestimonialsSection = () => {
   return (
-    <section id="testimonials" className="py-20 px-4 bg-white">
+    <section id="testimonials" className="scroll-mt-24 py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-slab font-semibold mb-12">
           What Our Clients Say About Us
