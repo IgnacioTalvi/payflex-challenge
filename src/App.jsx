@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import PartnersSection from './components/PartnersSection'
 import BenefitsSection from './components/BenefitsSection'
 import TestimonialsSection from './components/TestimonialsSection'
+import DownloadAppSection from './components/DownloadAppSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <PartnersSection/>
       <BenefitsSection/>
       <TestimonialsSection/>
+      <DownloadAppSection/>
     </div>
   )
 }

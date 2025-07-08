@@ -51,7 +51,14 @@ const Navbar = () => {
           <a href="#Header" className="cursor-pointer">Testimonials</a>
           <a href="#Header" className="cursor-pointer">FAQ</a>
           <button className="bg-blue-600 text-white px-6 md:px-8 py-2 md:py-3 rounded-full hover:bg-blue-700 transition-colors duration-300 cursor-pointer">
-            <a href="#Header" className="text-white">Get in touch</a>
+            <a 
+              href="https://calendly.com/payflex/primer-contacto"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white"
+            >
+              Get in touch
+            </a>
           </button>
         </ul>
 
@@ -64,43 +71,45 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Fullscreen Menu */}
-<div
-  className={`
-    fixed top-0 left-0 w-full h-screen bg-white 
-    flex flex-col justify-start items-center pt-32 space-y-8
-    transition-all duration-300 ease-in-out z-40
-    ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-full'}
-  `}
->
-  <a
-    href="#Header"
-    onClick={() => setIsOpen(false)}
-    className="text-xl font-sans font-regular text-gray-800"
-  >
-    Benefits
-  </a>
-  <a
-    href="#Header"
-    onClick={() => setIsOpen(false)}
-    className="text-xl font-sans font-regular text-gray-800"
-  >
-    Testimonials
-  </a>
-  <a
-    href="#Header"
-    onClick={() => setIsOpen(false)}
-    className="text-xl font-sans font-regular text-gray-800"
-  >
-    FAQ
-  </a>
-  <a
-    href="#Header"
-    onClick={() => setIsOpen(false)}
-    className="text-xl font-sans font-regular bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors duration-300"
-  >
-    Get in touch
-  </a>
-</div>
+        <div
+          className={`
+            fixed top-0 left-0 w-full h-screen bg-white 
+            flex flex-col justify-start items-center pt-32 space-y-8
+            transition-all duration-300 ease-in-out z-40
+            ${isOpen ? 'opacity-100 pointer-events-auto translate-y-0' : 'opacity-0 pointer-events-none -translate-y-full'}
+          `}
+        >
+          <a
+            href="#Header"
+            onClick={() => setIsOpen(false)}
+            className="text-xl font-sans font-regular text-gray-800"
+          >
+            Benefits
+          </a>
+          <a
+            href="#Header"
+            onClick={() => setIsOpen(false)}
+            className="text-xl font-sans font-regular text-gray-800"
+          >
+            Testimonials
+          </a>
+          <a
+            href="#Header"
+            onClick={() => setIsOpen(false)}
+            className="text-xl font-sans font-regular text-gray-800"
+          >
+            FAQ
+          </a>
+          <a
+            href="https://calendly.com/payflex/primer-contacto"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => setIsOpen(false)}
+            className="text-xl font-sans font-regular bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-colors duration-300"
+          >
+            Get in touch
+          </a>
+        </div>
     </div>
   );
 };
