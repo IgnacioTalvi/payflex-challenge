@@ -6,6 +6,7 @@ import PartnersSection from './components/PartnersSection'
 import BenefitsSection from './components/BenefitsSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import DownloadAppSection from './components/DownloadAppSection'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <BenefitsSection/>
       <TestimonialsSection/>
       <DownloadAppSection/>
+      <Footer/>
     </div>
   )
 }

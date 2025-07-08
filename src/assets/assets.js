@@ -8,6 +8,8 @@ import MicrosoftLogo from './microsoft-logo.png'; // Si es el logo de un partner
 import PayflexLogo from './payflex-logo.png'; // El logo principal de PayFlex
 import ReviewIcon from './review-icon.png'; // El icono para las reviews/testimonios
 import HamburgerMenu from './hamburger-menu.png';
+import InstagramIcon from './instagram-icon.png';
+import LinkedinIcon from './linkedin-icon.png';
 
 // --- Iconos/Imágenes de Beneficios ---
 import BenefitsIcon1 from './benefits-icon-1.png';
@@ -34,6 +36,8 @@ export const Images = {
   payflexLogo: PayflexLogo,
   reviewIcon: ReviewIcon,
   hamburgerMenu: HamburgerMenu,
+  instagramIcon: InstagramIcon,
+  linkedinIcon: LinkedinIcon,
 
   // Iconos/Imágenes de Beneficios
   benefitsIcon1: BenefitsIcon1,
