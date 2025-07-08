@@ -22,7 +22,7 @@ import DownloadAppImage from './download-app-image.png'; // Si es una imagen par
 // --- Imágenes de Testimonios ---
 import TestimonialImage1 from './testimonial-image-leo.png'; // Corresponde a Leo
 import TestimonialImage2 from './testimonial-image-melanie.png'; // Corresponde a Melanie
-import TestimonialImage3 from './testimonial-image-leo.png'; // Corresponde a Kevin
+import TestimonialImage3 from './testimonial-image-kevin.png'; // Corresponde a Kevin
 
 export const Images = {
   // Iconos Generales

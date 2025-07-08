@@ -13,7 +13,7 @@ export const testimonialsData = [
     id: 'melanie-hr',
     name: 'Melanie',
     title: 'HR Recruiter',
-    text: "It's incredibly easy for our team to manage, reducing our administrative load, and the positive feedback from employees regarding immediate access to their earned wages has been overwhelmingly positive. It truly helps us stand out.",
+    text: "It's incredibly easy for our team to manage, reducing our administrative load, and the positive feedback from employees regarding immediate access to their earned wages has been overwhelmingly positive.",
     image: Images.testimonialImage2,
     rating: 5,
   },
