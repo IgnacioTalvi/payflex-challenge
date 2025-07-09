@@ -7,6 +7,7 @@ import BenefitsSection from './components/BenefitsSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import DownloadAppSection from './components/DownloadAppSection'
 import Footer from './components/Footer'
+import FAQSection from './components/FAQSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <BenefitsSection/>
       <TestimonialsSection/>
       <DownloadAppSection/>
+      <FAQSection/>
       <Footer/>
     </div>
   )
